@@ -78,15 +78,7 @@ WSGI_APPLICATION = 'untitled1.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
-        'NAME': 'alert_info',  # 数据库名，先前创建的
-        'USER': 'root',     # 用户名，可以自己创建用户
-        'PASSWORD': 'Jingle@100',  # 密码
-        'HOST': '119.28.111.211',  # mysql服务所在的主机ip
-        'PORT': '3306',         # mysql服务端口
+
 
 
 

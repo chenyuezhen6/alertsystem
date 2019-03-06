@@ -128,10 +128,10 @@ STATICFILES_DIRS = [
 ]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.exmail.com'
-EMAIL_PORT = 465
-EMAIL_HOST_USER = 'yuezhen.chen@garena.cn'
-EMAIL_HOST_PASSWORD = 'wASVoiWUYdk3SoTM'
+EMAIL_HOST = 'smtp.sina.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = 'wthtest@sina.com'
+EMAIL_HOST_PASSWORD = 'test1234'
 
 #注册有效期天数
 CONFIRM_DAYS = 7
